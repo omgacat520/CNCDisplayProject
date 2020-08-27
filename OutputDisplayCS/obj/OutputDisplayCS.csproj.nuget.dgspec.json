@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omgac\\Documents\\OkumaProject\\VariableOutputConsoleApp\\VariableOutputConsoleApp.csproj": {}
+    "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omgac\\Documents\\OkumaProject\\VariableOutputConsoleApp\\VariableOutputConsoleApp.csproj": {
+    "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omgac\\Documents\\OkumaProject\\VariableOutputConsoleApp\\VariableOutputConsoleApp.csproj",
-        "projectName": "VariableOutputConsoleApp",
-        "projectPath": "C:\\Users\\omgac\\Documents\\OkumaProject\\VariableOutputConsoleApp\\VariableOutputConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj",
+        "projectName": "OutputDisplayCS",
+        "projectPath": "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj",
         "packagesPath": "C:\\Users\\omgac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omgac\\Documents\\OkumaProject\\VariableOutputConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

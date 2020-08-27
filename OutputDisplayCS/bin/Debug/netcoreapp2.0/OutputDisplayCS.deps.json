@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "OutputDisplayCS/1.0.0": {
+        "dependencies": {
+          "Okuma.CGCMDAPI": "1.0.0.0",
+          "Okuma.CGDATAPI": "1.0.0.0",
+          "Okuma.CLCMDAPI": "2.1.2.0",
+          "Okuma.CLDATAPI": "2.8.0.0",
+          "Okuma.CMCMDAPI": "2.5.0.0",
+          "Okuma.CMDATAPI": "2.7.3.0"
+        },
+        "runtime": {
+          "OutputDisplayCS.dll": {}
+        }
+      },
+      "Okuma.CGCMDAPI/1.0.0.0": {
+        "runtime": {
+          "Okuma.CGCMDAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Okuma.CGDATAPI/1.0.0.0": {
+        "runtime": {
+          "Okuma.CGDATAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Okuma.CLCMDAPI/2.1.2.0": {
+        "runtime": {
+          "Okuma.CLCMDAPI.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "Okuma.CLDATAPI/2.8.0.0": {
+        "runtime": {
+          "Okuma.CLDATAPI.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Okuma.CMCMDAPI/2.5.0.0": {
+        "runtime": {
+          "Okuma.CMCMDAPI.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "Okuma.CMDATAPI/2.7.3.0": {
+        "runtime": {
+          "Okuma.CMDATAPI.dll": {
+            "assemblyVersion": "2.7.3.0",
+            "fileVersion": "2.7.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OutputDisplayCS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Okuma.CGCMDAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Okuma.CGDATAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Okuma.CLCMDAPI/2.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Okuma.CLDATAPI/2.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Okuma.CMCMDAPI/2.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Okuma.CMDATAPI/2.7.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Okuma.CGCMDAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CGCMDAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CGDATAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CGDATAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CLCMDAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CLCMDAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CLDATAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CLDATAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CMCMDAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CMCMDAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CMDATAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CMDATAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
