@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj": {}
+    "C:\\Users\\mjbea\\Documents\\GitHub\\CNCDisplayProject\\OutputDisplayCS\\OutputDisplayCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj": {
+    "C:\\Users\\mjbea\\Documents\\GitHub\\CNCDisplayProject\\OutputDisplayCS\\OutputDisplayCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj",
+        "projectUniqueName": "C:\\Users\\mjbea\\Documents\\GitHub\\CNCDisplayProject\\OutputDisplayCS\\OutputDisplayCS.csproj",
         "projectName": "OutputDisplayCS",
-        "projectPath": "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\OutputDisplayCS.csproj",
-        "packagesPath": "C:\\Users\\omgac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omgac\\Documents\\OkumaProject\\OutputDisplayCS\\obj\\",
+        "projectPath": "C:\\Users\\mjbea\\Documents\\GitHub\\CNCDisplayProject\\OutputDisplayCS\\OutputDisplayCS.csproj",
+        "packagesPath": "C:\\Users\\mjbea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mjbea\\Documents\\GitHub\\CNCDisplayProject\\OutputDisplayCS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\omgac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mjbea\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
