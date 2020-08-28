@@ -26,6 +26,8 @@ namespace VariableOutputForms
             var objProgram = new Okuma.CMDATAPI.DataAPI.CProgram();
             var objSpec = new Okuma.CMDATAPI.DataAPI.CSpec();
             var objSpindle = new Okuma.CMDATAPI.DataAPI.CSpindle();
+
+            objMachine.Init();
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

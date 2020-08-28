@@ -11,3 +11,5 @@ questions
 5: Do you know how to set up shutdown behaviors? So when the application is due to shutdown or is called to terminate, it can properly release itself from the THiNC API
 
 6: Do you know any effecient means of setting up a simulated environment for a CMachine? (I don't have access to the machines 24/7 and I hate to waste Austins and Matts time with testing sessions, especially if I need to bang out easy-to-fix bugs.)
+
+7: What .NET framework should I target?

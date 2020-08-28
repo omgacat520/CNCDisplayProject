@@ -1,0 +1,17 @@
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\VariableOutputForms.exe
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\VariableOutputForms.pdb
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CLCMDAPI.dll
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CLDATAPI.dll
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CMCMDAPI.dll
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CMDATAPI.dll
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CLCMDAPI.xml
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CLDATAPI.xml
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CMCMDAPI.xml
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\bin\Debug\Okuma.CMDATAPI.xml
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.csprojAssemblyReference.cache
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.Form1.resources
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.Properties.Resources.resources
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.csproj.GenerateResource.cache
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.csproj.CopyComplete
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.exe
+C:\Users\omgac\Documents\OkumaProject\VariableOutputForms\obj\Debug\VariableOutputForms.pdb
