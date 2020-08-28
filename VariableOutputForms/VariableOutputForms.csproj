@@ -31,7 +31,28 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Okuma.CGCMDAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CGCMDAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CGDATAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CGDATAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CLCMDAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CLCMDAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CLDATAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CLDATAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CMCMDAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CMCMDAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Okuma.CMDATAPI">
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CMDATAPI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -48,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

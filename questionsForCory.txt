@@ -1,0 +1,13 @@
+questions
+
+1: is .net framework 2.0 compatible with the Okuma 1.19 API?
+
+2: do you have to initialize all components for the given machine as said in the documentation, or can you only initialize the parts you need. (I only need the Cvariables object, but it says I should instantiate the other objects as well desptie not using them)
+
+3: do you know if the API itself has a method similar to "onChange", so instead of checking the method every 5 seconds, I can instead wait for a change and then execute code like an Event Handler?
+
+4: Do you know how to make a project target x32 bit architectures rather than the typical x86 or x64? In my current windows form project, it will only allow me to target those two in the project properties file.
+
+5: Do you know how to set up shutdown behaviors? So when the application is due to shutdown or is called to terminate, it can properly release itself from the THiNC API
+
+6: Do you know any effecient means of setting up a simulated environment for a CMachine? (I don't have access to the machines 24/7 and I hate to waste Austins and Matts time with testing sessions, especially if I need to bang out easy-to-fix bugs.)
