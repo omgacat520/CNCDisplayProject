@@ -1,3 +1,0 @@
-C:\Users\omgac\Documents\OkumaProject\OutputDisplayCS\obj\Debug\netcoreapp1.1\OutputDisplayCS.csprojAssemblyReference.cache
-C:\Users\omgac\Documents\OkumaProject\OutputDisplayCS\obj\Debug\netcoreapp1.1\OutputDisplayCS.AssemblyInfoInputs.cache
-C:\Users\omgac\Documents\OkumaProject\OutputDisplayCS\obj\Debug\netcoreapp1.1\OutputDisplayCS.AssemblyInfo.cs

@@ -13,7 +13,6 @@ namespace VariableOutputForms
     {
         bool isPoppedUp = false; //this halts the checks if the window is visible
         double comparedValue = 0, actualValue = 0;//values to compare
-        Okuma.CMDATAPI.DataAPI.CVariables objVariables = new Okuma.CMDATAPI.DataAPI.CVariables(); //object used to retrieve variables from API
         public Form1()
         {
             InitializeComponent();
@@ -25,11 +24,21 @@ namespace VariableOutputForms
 
             do
             {
+                var objMachine = new Okuma.CMDATAPI.DataAPI.CMachine();
+                objMachine.Init();
+                var objVariables = new Okuma.CMDATAPI.DataAPI.CVariables(); //object used to retrieve variables from API
+
                 objVariables.GetCommonVariableValue(195);
+
+                objMachine.Close();
             } while (comparedValue != 0 || Math.Abs(comparedValue) > 0.01);
 
             do
             {
+                var objMachine = new Okuma.CMDATAPI.DataAPI.CMachine();
+                objMachine.Init();
+                var objVariables = new Okuma.CMDATAPI.DataAPI.CVariables(); //object used to retrieve variables from API
+
                 actualValue = objVariables.GetCommonVariableValue(195);
                 lblActualValue.Text = $"Actual Value: {actualValue}";
                 lblComparedValue.Text = $"Compared Value: {comparedValue}";
@@ -43,6 +52,8 @@ namespace VariableOutputForms
                         isPoppedUp = true;
                     }
                 }
+
+                objMachine.Close();
             } while (1 == 1);
         }
 
@@ -52,6 +63,7 @@ namespace VariableOutputForms
             isPoppedUp = false;
             do
             {
+                var objVariables = new Okuma.CMDATAPI.DataAPI.CVariables(); //object used to retrieve variables from API
                 objVariables.GetCommonVariableValue(195);
             } while (comparedValue != 0 || Math.Abs(comparedValue) > 0.01);
         }

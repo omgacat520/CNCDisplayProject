@@ -13,3 +13,10 @@ questions
 6: Do you know any effecient means of setting up a simulated environment for a CMachine? (I don't have access to the machines 24/7 and I hate to waste Austins and Matts time with testing sessions, especially if I need to bang out easy-to-fix bugs.)
 
 7: What .NET framework should I target?
+
+implement legacy framework
+
+remote debugging tools
+
+initialize machine - close inside loop
+dont need the rest of variables
