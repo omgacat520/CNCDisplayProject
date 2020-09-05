@@ -1,0 +1,3 @@
+[submodule "Open-API-SDK"]
+	path = Open-API-SDK
+	url = https://github.com/OkumaAmerica/Open-API-SDK.git
