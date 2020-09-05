@@ -15,3 +15,8 @@ Current problems needing solving:
 --Making the console maximize when the variable has changed, and having the user input to make it minimize again.
 
 The OkumaOpenAPI folder also has a help folder with the necessary documentation in .chm files. MC or Machine Center's are mills. It's just what people in the industry call mills, and I'm pretty sure we'll be testing on a mill, so using the MC documentation is probably best.
+
+(Jake, 9/5/20)
+To get the git submodule (Okuma API), use the commands
+git submodule init (initializes their respective git repos)
+git submodule update (pulls from repos and updates necessary files)
