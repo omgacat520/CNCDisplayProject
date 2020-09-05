@@ -77,22 +77,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Okuma.CGCMDAPI">
-      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CGCMDAPI.dll</HintPath>
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK-master\Open-API-SDK-master\API\1.19.0\Bin\Okuma.CGCMDAPI.dll</HintPath>
     </Reference>
     <Reference Include="Okuma.CGDATAPI">
-      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CGDATAPI.dll</HintPath>
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK-master\Open-API-SDK-master\API\1.19.0\Bin\Okuma.CGDATAPI.dll</HintPath>
     </Reference>
-    <Reference Include="Okuma.CLCMDAPI">
-      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CLCMDAPI.dll</HintPath>
+    <Reference Include="Okuma.CLCMDAPI, Version=2.1.2.0, Culture=neutral, PublicKeyToken=a223a5616e84547b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK-master\Open-API-SDK-master\API\1.19.0\Bin\Okuma.CLCMDAPI.dll</HintPath>
     </Reference>
-    <Reference Include="Okuma.CLDATAPI">
-      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CLDATAPI.dll</HintPath>
+    <Reference Include="Okuma.CLDATAPI, Version=2.8.0.0, Culture=neutral, PublicKeyToken=2d3497331b752ad6">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK-master\Open-API-SDK-master\API\1.19.0\Bin\Okuma.CLDATAPI.dll</HintPath>
     </Reference>
-    <Reference Include="Okuma.CMCMDAPI">
-      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CMCMDAPI.dll</HintPath>
+    <Reference Include="Okuma.CMCMDAPI, Version=2.5.0.0, Culture=neutral, PublicKeyToken=da5164982ff0f268">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK-master\Open-API-SDK-master\API\1.19.0\Bin\Okuma.CMCMDAPI.dll</HintPath>
     </Reference>
-    <Reference Include="Okuma.CMDATAPI">
-      <HintPath>..\OkumaOpenAPI\Open-API-SDK\API\1.19.0\Bin\Okuma.CMDATAPI.dll</HintPath>
+    <Reference Include="Okuma.CMDATAPI, Version=2.7.3.0, Culture=neutral, PublicKeyToken=ddd409d78457d7ad">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OkumaOpenAPI\Open-API-SDK-master\Open-API-SDK-master\API\1.19.0\Bin\Okuma.CMDATAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
