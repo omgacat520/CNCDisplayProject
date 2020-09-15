@@ -6,14 +6,25 @@ using System.Drawing;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using Okuma.CMDATAPI.DataAPI;
 
 namespace VariableOutputForms
 {
     public partial class Form1 : Form
     {
         double comparedValue = 0, actualValue = 0;//values to compare
-        Okuma.CMDATAPI.DataAPI.CMachine objMachine = new Okuma.CMDATAPI.DataAPI.CMachine();
-        Okuma.CMDATAPI.DataAPI.CVariables objVariables = new Okuma.CMDATAPI.DataAPI.CVariables();
+        CMachine objMachine = new CMachine();
+        //supposedly "needed" variables, they're unused, but appear to be vital for initialization. This is where the testing is needed.
+        //CATC objAtc = new CATC(); //this accesses memory that's locked. Error message says its probably due to corrupted memory. Gonna try and comment this out to see what happens.
+        CAxis objAxis = new CAxis();
+        CBallScrew objBS = new CBallScrew();
+        CCoolant objCoolant = new CCoolant();
+        //CMOPTool objCMP = new CMOPTool(); //this is also throwing a memory error, gonna comment this out too.
+        CProgram objProgram = new CProgram();
+        CSpec objSpec = new CSpec();
+        CSpindle objSPindle = new CSpindle();
+
+        CVariables objVariables = new CVariables();
         public Form1()
         {
             InitializeComponent();
@@ -53,7 +64,7 @@ namespace VariableOutputForms
             
         }
 
-        private void btnOK_Click(object sender, EventArgs e)
+        private void btnOK_Click(object sender, EventArgs e) //event handler, on btnOK click
         {
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             do
